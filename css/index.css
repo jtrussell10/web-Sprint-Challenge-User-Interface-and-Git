@@ -51,6 +51,35 @@ table {
     box-sizing: border-box;
 }
 
+header{
+    /*border: 1px solid black;*/
+    display:flex;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 20px 2%;
+    
+
+}
+header img{
+margin-left: -15px;
+width:150px;
+margin-right: 50px;
+margin-bottom: 20px;  
+}
+
+header nav a{
+    color: black; 
+    margin-right:65px;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+  text-decoration: none;
+}
+
+.top-content img {
+  margin-bottom: 30px;
+}
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -112,6 +141,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+  background: teal;
+}
+
+.middle-content .boxes .box2 {
+  background: gold;
+}
+
+.middle-content .boxes .box3 {
+  background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+  background: coral;
+}
+.middle-content .boxes .box5 {
+  background: crimson;
+}
+
+.middle-content .boxes .box6 {
+  background: forestgreen;
+}
+.middle-content .boxes .box7 {
+  background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+  background: hotpink;
+}
+.middle-content .boxes .box9 {
+  background: indigo;
+}
+
+.middle-content .boxes .box10 {
+  background: dodgerblue;
+}
+
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +212,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.jumbo-about {
+  margin-bottom: 15px;
+}
+
+.about-content {
+  margin-left: 20px; 
+}
+
+.about-page .about-segment {
+  margin-bottom: 20px;
+  border-bottom: 1px dashed black;
+}
+
+.about-paragraph {
+  margin-bottom: 10px;
+}
+
+img {
+  margin-bottom: 10px
+}
+
+.components {
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+}
+
+.right {
+  border-bottom: solid:
+}
+
+
+
+.learn-more {
+  border-bottom: 1px dashed black;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  background-color: white;
+  border: 2.5px solid;
+  color: black;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.work-together {
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
